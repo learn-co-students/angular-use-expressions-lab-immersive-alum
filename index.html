@@ -14,7 +14,7 @@
     <div ng-app="app">
         <div ng-controller="EmailController as ctrl">
             <h4>Emails</h4>
-            <h6>{{ ctrl.emails.length == 0 && 'No emails!' || 'Lots of emails' }}</h6>
+            <h6>{{ ctrl.emails.length == 0 && 'You have no emails' || 'You have ' + ctrl.emails.length + ' emails' }}</h6>
 
             <ul>
                 <li ng-repeat="email in ctrl.emails">
