@@ -7,6 +7,8 @@
 
 ## Instructions
 
+First off, run `npm install` to install the dependencies for this lab.
+
 In this repo we've got a (very basic) EmailController, showing a list of emails and allowing us to add an email to the list.
 
 In our `<h6>` tag we've got `You have emails` - let's make this more dynamic!
